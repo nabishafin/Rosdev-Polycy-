@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: 'Premium Jet Ski Rental Services - Riptide Jet Ski Rental',
   generator: 'v0.app',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon-custom.jpg',
   },
 }
 

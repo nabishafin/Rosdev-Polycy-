@@ -28,13 +28,16 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 bg-blue-600/95 backdrop-blur-sm text-white shadow-md transition-transform duration-300 z-50 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
+      className={`fixed top-0 left-0 right-0 bg-black/95 backdrop-blur-sm text-white shadow-md transition-transform duration-300 z-50 ${isVisible ? 'translate-y-0' : '-translate-y-full'
+        }`}
     >
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <h1 className="text-xl font-bold">Riptide Jet Ski Rental</h1>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-24">
+          <div className="flex items-center gap-2">
+            <a href="/" className="flex items-center gap-2">
+              <img src="/logo.png" alt="Riptide Jet Ski Rental" className="h-20 w-auto object-contain" />
+            </a>
+          </div>
           <div className="flex gap-6">
             <a href="/privacy" className="hover:bg-blue-700 px-3 py-2 rounded transition">
               Privacy Policy
